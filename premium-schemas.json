@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Premium",
+        "fields": [
+            {
+                "name": "alternatives",
+                "friendlyName": "Alternative Premiums",
+                "description": "The alternative premiums for the coverage",
+                "type": {
+                    "name": "ARRAY",
+                    "elementType": {
+                        "name": "AlternativePremium"
+                    }
+                }
+            },
+            {
+                "name": "breakdowns",
+                "friendlyName": "Premium Breakdowns",
+                "description": "The breakdowns of the premium of the coverage",
+                "type": {
+                    "name": "ARRAY",
+                    "elementType": {
+                        "name": "PremiumBreakdown"
+                    }
+                }
+            },
+            {
+                "name": "coverageName",
+                "friendlyName": "Coverage Name",
+                "description": "The name of the coverage.",
+                "type": {
+                    "name": "STRING"
+                }
+            },
+            {
+                "name": "coveragePremium",
+                "friendlyName": "Coverage Premium",
+                "description": "The premium for the coverage.",
+                "type": {
+                    "name": "DOUBLE"
+                }
+            },
+            {
+                "name": "coverageValue",
+                "friendlyName": "Coverage Value",
+                "description": "The limit of deductible of the coverage.",
+                "type": {
+                    "name": "STRING"
+                }
+            }
+        ]
+    },
+    {
+        "name": "AlternativePremium",
+        "fields": [
+            {
+                "name": "breakdowns",
+                "friendlyName": "Alternative Premium Breakdowns",
+                "description": "The breakdowns of the premium of the coverage in the alternative scenario",
+                "type": {
+                    "name": "ARRAY",
+                    "elementType": {
+                        "name": "PremiumBreakdown"
+                    }
+                }
+            },
+            {
+                "name": "coveragePremium",
+                "friendlyName": "Alternative Coverage Premium",
+                "description": "The premium of the coverage in the alternative scenario",
+                "type": {
+                    "name": "DOUBLE"
+                }
+            },
+            {
+                "name": "coverageValue",
+                "friendlyName": "Alternative Coverage Value",
+                "description": "The limit of deductible of the coverage in the alternative scenario",
+                "type": {
+                    "name": "STRING"
+                }
+            },
+            {
+                "name": "name",
+                "friendlyName": "Alternative Scenario Name",
+                "description": "The name of the alternative scenario",
+                "type": {
+                    "name": "STRING"
+                }
+            }
+        ]
+    },
+    {
+        "name": "PremiumBreakdown",
+        "fields": [
+            {
+                "name": "name",
+                "friendlyName": "Premium Breakdown Part Name",
+                "description": "The name of the premium breakup",
+                "type": {
+                    "name": "STRING"
+                }
+            },
+            {
+                "name": "amount",
+                "friendlyName": "Break down amount",
+                "description": "The amount of the breakdown",
+                "type": {
+                    "name": "DOUBLE"
+                }
+            }
+        ]
+    }
+]
