@@ -77,7 +77,7 @@ Validates whether a given payload conforms to the specified schema.
 
 ### 🔹 GET `/generate`
 
-**Description:** Generate a valid Premium payload based on the provided schema.
+**Description:** Generate a valid Premium payload based on the provided schema.Data will be stored in premiums.json
 
 **Curl Example:**
 ```bash
