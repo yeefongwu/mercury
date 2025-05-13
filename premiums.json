@@ -1,0 +1,314 @@
+[
+  {
+    "id": "111",
+    "coverageName": "Travel Insurance",
+    "coveragePremium": 9957.01,
+    "coverageValue": "$899 deductible",
+    "breakdowns": [
+      {
+        "name": "Base Premium",
+        "amount": 2528.26
+      },
+      {
+        "name": "Tax",
+        "amount": 813.68
+      },
+      {
+        "name": "Fee",
+        "amount": 911.76
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Low-Cost Option",
+        "coveragePremium": 1473.51,
+        "coverageValue": "$1747 deductible",
+        "breakdowns": [
+          {
+            "name": "Tax",
+            "amount": 728.34
+          },
+          {
+            "name": "Fee",
+            "amount": 148.57
+          },
+          {
+            "name": "Base Premium",
+            "amount": 1498.35
+          }
+        ]
+      },
+      {
+        "name": "High-Deductible Option",
+        "coveragePremium": 667.13,
+        "coverageValue": "$1912 deductible",
+        "breakdowns": [
+          {
+            "name": "Base Premium",
+            "amount": 1370.16
+          },
+          {
+            "name": "Tax",
+            "amount": 63.66
+          },
+          {
+            "name": "Surcharge",
+            "amount": 309.07
+          },
+          {
+            "name": "Discount",
+            "amount": 554.82
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "222",
+    "coverageName": "Home Insurance",
+    "coveragePremium": 9732.36,
+    "coverageValue": "$895 deductible",
+    "breakdowns": [
+      {
+        "name": "Base Premium",
+        "amount": 2229.02
+      },
+      {
+        "name": "Discount",
+        "amount": 672.25
+      },
+      {
+        "name": "Tax",
+        "amount": 681.57
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Premium Option",
+        "coveragePremium": 3338.81,
+        "coverageValue": "$854 deductible",
+        "breakdowns": [
+          {
+            "name": "Tax",
+            "amount": 534.02
+          },
+          {
+            "name": "Discount",
+            "amount": 557.58
+          },
+          {
+            "name": "Base Premium",
+            "amount": 2416.91
+          },
+          {
+            "name": "Surcharge",
+            "amount": 511.14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "36d8a823-9af0-4936-8b90-5c1d2ae1fe25",
+    "coverageName": "Health Insurance",
+    "coveragePremium": 4785.86,
+    "coverageValue": "$1019 deductible",
+    "breakdowns": [
+      {
+        "name": "Discount",
+        "amount": 626.06
+      },
+      {
+        "name": "Tax",
+        "amount": 618.75
+      },
+      {
+        "name": "Fee",
+        "amount": 784.05
+      },
+      {
+        "name": "Base Premium",
+        "amount": 1147.91
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "High-Deductible Option",
+        "coveragePremium": 2549.34,
+        "coverageValue": "$1433 deductible",
+        "breakdowns": [
+          {
+            "name": "Fee",
+            "amount": 648.51
+          },
+          {
+            "name": "Base Premium",
+            "amount": 2491.98
+          },
+          {
+            "name": "Tax",
+            "amount": 97.8
+          }
+        ]
+      },
+      {
+        "name": "Low-Cost Option",
+        "coveragePremium": 4110.61,
+        "coverageValue": "$1281 deductible",
+        "breakdowns": [
+          {
+            "name": "Base Premium",
+            "amount": 2216.3
+          }
+        ]
+      },
+      {
+        "name": "Premium Option",
+        "coveragePremium": 2880.74,
+        "coverageValue": "$1039 deductible",
+        "breakdowns": [
+          {
+            "name": "Tax",
+            "amount": 572.1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "accc17cb-605b-48a9-8f79-c63228d279db",
+    "coverageName": "Life Insurance",
+    "coveragePremium": 3583.18,
+    "coverageValue": "$939 deductible",
+    "breakdowns": [
+      {
+        "name": "Fee",
+        "amount": 40.02
+      },
+      {
+        "name": "Base Premium",
+        "amount": 1110.25
+      },
+      {
+        "name": "Discount",
+        "amount": 166.83
+      },
+      {
+        "name": "Tax",
+        "amount": 787.16
+      },
+      {
+        "name": "Surcharge",
+        "amount": 542.01
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Premium Option",
+        "coveragePremium": 4742.74,
+        "coverageValue": "$899 deductible",
+        "breakdowns": [
+          {
+            "name": "Tax",
+            "amount": 894.35
+          },
+          {
+            "name": "Fee",
+            "amount": 728.71
+          },
+          {
+            "name": "Surcharge",
+            "amount": 369.98
+          },
+          {
+            "name": "Base Premium",
+            "amount": 1613.59
+          }
+        ]
+      },
+      {
+        "name": "Standard Option",
+        "coveragePremium": 3547.73,
+        "coverageValue": "$1943 deductible",
+        "breakdowns": [
+          {
+            "name": "Surcharge",
+            "amount": 791.52
+          },
+          {
+            "name": "Discount",
+            "amount": 462.19
+          },
+          {
+            "name": "Base Premium",
+            "amount": 2233.56
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "666",
+    "coverageName": "Travel Insurance",
+    "coveragePremium": 9957.01,
+    "coverageValue": "$899 deductible",
+    "breakdowns": [
+      {
+        "name": "Base Premium",
+        "amount": 2528.26
+      },
+      {
+        "name": "Tax",
+        "amount": 813.68
+      },
+      {
+        "name": "Fee",
+        "amount": 911.76
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Low-Cost Option",
+        "coveragePremium": 1473.51,
+        "coverageValue": "$1747 deductible",
+        "breakdowns": [
+          {
+            "name": "Tax",
+            "amount": 728.34
+          },
+          {
+            "name": "Fee",
+            "amount": 148.57
+          },
+          {
+            "name": "Base Premium",
+            "amount": 1498.35
+          }
+        ]
+      },
+      {
+        "name": "High-Deductible Option",
+        "coveragePremium": 667.13,
+        "coverageValue": "$1912 deductible",
+        "breakdowns": [
+          {
+            "name": "Base Premium",
+            "amount": 1370.16
+          },
+          {
+            "name": "Tax",
+            "amount": 63.66
+          },
+          {
+            "name": "Surcharge",
+            "amount": 309.07
+          },
+          {
+            "name": "Discount",
+            "amount": 554.82
+          }
+        ]
+      }
+    ]
+  }
+]
